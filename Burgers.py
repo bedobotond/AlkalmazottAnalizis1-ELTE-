@@ -25,7 +25,7 @@ h=(b-a)/N
 ## Semianalytic solution with method of characteristic
 xx=(np.asarray(range(1,2*N,2)))/(2.0*N)
 xi = zeros(len(xx))
-sol = []
+sol = [] 
 for guess in range(N):
     for i in range(guess):
         x = xx[i]
