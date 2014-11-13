@@ -22,7 +22,7 @@ N=2**2
 t=0.18
 h=(b-a)/N
 
-## Semianalytic solution with method of characteristic
+## Semianalytic solution with methods of characteristic
 xx=(np.asarray(range(1,2*N,2)))/(2.0*N)
 xi = zeros(len(xx))
 sol = [] 
@@ -57,12 +57,11 @@ print E_h
 
 ## Repeating the process on a finer grid
 xx=(np.asarray(range(1,4*N,2)))/(4.0*N)
-t=0.16#58214 #Aktuális időréteg
+t=0.16#58214
 xi = zeros(len(xx))
 for i in range(guess):
     x = xx[i]
-    xi[i] = scipy.optimize.fsolve(func, xi[i-1]) #Newton-módszerrel alkalmazva megoldja a nemlineáris egyenletet
-#end
+    xi[i] = scipy.optimize.fsolve(func, xi[i-1])
 xi[2*N-1]=xi[0]+1
 for j in np.arange(len(xx)-2, guess-1,-1):
     x = xx[j]
@@ -86,7 +85,7 @@ ax.set_ylabel(r'Values')
 #ax.set_title('title');
 plt.savefig("Comparision.jpg")
 
-## Order of the convergence based LeVeque SIAM 2007 Book (Section A.5-A.6)
+## Order of the convergence based on LeVeque's SIAM 2007 Book (Section A.5-A.6)
 E_h_per_2=(h2*np.sum(np.abs(Numeric_2_Before-Semi_2_Before)**q))**(1.0/q)
 R_h=(E_h)/(E_h_per_2)
 p=math.log(R_h,2)
