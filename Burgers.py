@@ -90,4 +90,3 @@ E_h_per_2=(h2*np.sum(np.abs(Numeric_2_Before-Semi_2_Before)**q))**(1.0/q)
 R_h=(E_h)/(E_h_per_2)
 p=math.log(R_h,2)
 print p # order
-
