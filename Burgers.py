@@ -22,7 +22,7 @@ N=2**2
 t=0.18
 h=(b-a)/N
 
-## Semianalytic solution with methods of characteristic
+## Semianalytic solution with methods of characteristic 
 xx=(np.asarray(range(1,2*N,2)))/(2.0*N)
 xi = zeros(len(xx))
 sol = [] 
