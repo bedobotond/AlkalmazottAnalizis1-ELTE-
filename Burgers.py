@@ -18,7 +18,7 @@ def func(xi):
 ## Parameters
 a=0.0
 b=1.0
-N=2**2
+N=2**2 
 t=0.18
 h=(b-a)/N
 
