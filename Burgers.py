@@ -1,5 +1,5 @@
 import scipy.optimize
-from numpy import * 
+from numpy import *  
 from scipy import integrate
 import numpy as np
 import scipy
