@@ -1,4 +1,4 @@
-import scipy.optimize
+import scipy.optimize 
 from numpy import *  
 from scipy import integrate
 import numpy as np
