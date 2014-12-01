@@ -6,7 +6,7 @@ import scipy
 %matplotlib inline
 import matplotlib.pyplot as plt
 import mpld3
-mpld3.enable_notebook()
+mpld3.enable_notebook() 
 
 # Problem: nonviscous 1D Burgers with periodic B.C.
 # Goal: Investigation of CLAWPACK  and semianalytic solution for this problem
