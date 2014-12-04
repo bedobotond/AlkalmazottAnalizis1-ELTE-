@@ -11,7 +11,7 @@ mpld3.enable_notebook()
 # Problem: nonviscous 1D Burgers with periodic B.C.
 # Goal: Investigation of CLAWPACK  and semianalytic solution for this problem
 
-## Characteristic function
+## Characteristic function 
 def func(xi):
     return (np.sin(2.0*np.pi*xi)+0.50)*(t-0)+xi-x
 
