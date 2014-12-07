@@ -1,7 +1,7 @@
 SZIU
 ====
 
-OktatasiSegedlet
+OktatasiSegedlet 
 
 Ez a GitHub repository a Szechenyi Istvan Egyetem IPython notebookkal (SageMathCloud felho alkalmazassal egyetemben) torteno tanitasahoz nyujt segitseget.
 
