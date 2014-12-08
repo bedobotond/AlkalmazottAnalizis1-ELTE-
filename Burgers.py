@@ -28,7 +28,7 @@ xi = zeros(len(xx))
 sol = [] 
 for guess in range(N):
     for i in range(guess):
-        x = xx[i]
+        x = xx[i] 
         xi[i] = scipy.optimize.fsolve(func, xi[i-1]) 
     
     xi[N-1]=xi[0]+1
