@@ -3,7 +3,7 @@ from numpy import *
 from scipy import integrate
 import numpy as np
 import scipy
-%matplotlib inline
+%matplotlib inline 
 import matplotlib.pyplot as plt
 import mpld3
 mpld3.enable_notebook() 
