@@ -1,4 +1,4 @@
-# Alkalmazott Analízis1 kurzus hivatalos oktatási segédanyaga (ELTE)
+# Alkalmazott Analízis1 kurzus oktatási segédanyaga (ELTE)
 
 Összeállította: Fekete Imre (Alkalmazott Analízis és Számításmatematikai Tanszék, ELTE)
 <br>
