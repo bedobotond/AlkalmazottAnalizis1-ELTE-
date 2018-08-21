@@ -2,7 +2,7 @@
 
 Összeállította: Fekete Imre (Alkalmazott Analízis és Számításmatematikai Tanszék, ELTE)
 <br>
-A feladatok és a tanmenet megírása a 2016/2017 tavaszi félévben tartott kurzus alapján történt. 
+A feladatok és a tanmenet megírása az eredeti 2016/2017 tavaszi félévben tartott kurzus megfelelő módosításai, naprakész frissítése alapján történt. 
 
 A szakmódszertani kiértékelés és a projekt <i>az Emberi Erőforrások Minisztériuma ÚNKP-17-4 kódszámú Új Nemzeti Kiválóság Programjának támogatásával készült</i>.
 
